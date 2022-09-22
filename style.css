@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu{
+    background-color: #e9fffc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.menu a{
+    padding: 12px 35px;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: 900ms;
+}
+
+body{
+    background-color: #18366a;
+    padding-bottom: 20%;
+}
+
+.titulo h1{
+    display: block;
+    margin: 0 auto;
+    font-size: 41px;
+    color: white;
+    font-weight: 500;
+    width: 340px;
+}
+
+.titulo h1 p{
+    margin-left: 115px;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.titulo h1:hover{
+    border-top: 3.5px black solid;
+    transition: 900ms;
+}
+form{
+    width: 734px;
+    height: 820px;
+    background-color: white;
+    border-radius: 50px;
+    display: block;
+    margin: 5px auto;
+}
+
+.corpo label{
+    margin-top: 50%;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.corpo{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    font-size: 31px;
+    border: 0px;
+}
+
+input[type=text], input[type=number], input[type=email]{
+    height: 35px;
+    width: 630px;
+    border-radius: 50px;
+    margin-bottom: 10%;
+    margin-top: 10px;
+}
+
+.corpo2{
+    padding-top: 0px;
+    margin: 10px 50px;
+    border: 0px;
+}
+
+.corpo2 label{
+    font-size: 31px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.dados{
+    font-size: 30px;
+}
+
+.dados input[type=radio]{
+    margin-top: 20px;
+}
+
+.botao{
+    margin-top: 100px;
+    border: 0px solid black;
+}
+
+button{
+    font-size: 17px;
+    padding: 20px 35px;
+    border-radius: 50px;
+    display: block;
+    margin: 0px auto;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 900ms;
+}

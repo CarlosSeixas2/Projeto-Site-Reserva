@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reserva Online   </title>
+</head>
+<body>
+    
+    <div class="menu">
+        <img src="./logomenu.jpg" width="150px" height="auto">
+        <a href="">Home</a>
+        <a href="">Sobre</a>
+        <a href="">Contato</a>
+    </div>
+
+    <div class="titulo">
+        <h1>Faça sua Reserva<p>Aqui</p></h1>
+        
+    </div>
+
+    <form>
+        <fieldset class="corpo">
+            <div>
+                <label for="" class="dados">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="">Telefone</label>
+                <input type="number" name="telefone" id="telefone" required>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
+
+        <fieldset class="corpo2">
+            <label for="sexo">Sexo<br></label>
+            <div class="container">
+                <div class="dados">
+                    <input type="radio" name="homem" id="homem"> Homem
+                </div>
+                <div class="dados">
+                    <input type="radio" name="mulher" id="mulher"> Mulher
+                </div>
+                <div class="dados">
+                    <input type="radio" name="outro" id="outro"> Outro
+                </div>
+            </div> 
+        </fieldset>
+
+        <fieldset class="botao">
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
